@@ -213,6 +213,7 @@ section form textarea {
 
 .featured_works .container {
     max-width: 1032px;
+    margin:auto;
 }
 
 .featured_works h4{
@@ -229,7 +230,7 @@ section form textarea {
     display: flex;
     border-bottom: 1px solid #E0E0E0;
 }
-.article_container{
+.article_container {
     padding-left: 18px;
     max-width: 595px;
     box-sizing: border-box;
@@ -292,7 +293,6 @@ section form textarea {
 .vibrant_portraits{
     margin-bottom: 31px;
     padding-bottom: 35px;
-
 }
 
 .vibrant_portraits h3{
@@ -327,13 +327,6 @@ section form textarea {
 
 
 
-
-
-
-footer {
-    padding-top: 51px; padding-bottom: 54px;
-}
-
 .footer_container{
     max-width: 1032px; margin: auto;
 }
@@ -349,6 +342,20 @@ footer {
 }
 
 footer .footer_container p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+
+
+footer {
+    padding-top: 51px;
+    padding-bottom: 54px;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
