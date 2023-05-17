@@ -206,6 +206,115 @@ section form textarea {
     color: #8BCAC3;
 }
 
+.featured_works{
+    padding-top: 15px;
+    padding-bottom: 83px;
+}
+
+.featured_works .container {
+    max-width: 1032px;
+    margin:auto;
+}
+
+.featured_works h4{
+    margin-bottom: 22px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.designing_dashboard{
+    display: flex;
+    margin-bottom: 29px;
+}
+
+.featured_works h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.designing_dashboard h3{
+    margin-bottom: 16px;
+}
+
+.span_date{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.span_name{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+    margin-bottom: 17px;
+}
+
+.featured_works p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.designing_dashboard p{
+    margin-bottom: 2px;
+}
+
+.vibrant_portraits{
+    display:flex;
+}
+
+.vibrant_portraits h3{
+    margin-bottom: 31px;
+} h3
+
+.vibrant_portraits p{
+    margin-bottom: 17px;
+}
+
+.malayam_type {
+    diplay:flex;
+}
+
+.malayam_type h3 {
+    margin-bottom: 9px;
+}
+
+.malayam_type .span_date{
+    margin-bottom: 37px;
+}
+
+.malayam_type .span_name {
+    margin-bottom: 32px;
+}
+.malayam_type p {
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+
 footer {
     padding-top: 51px; padding-bottom: 54px;
 }
@@ -233,5 +342,7 @@ footer .footer_container p {
     text-align: center;
     color: #21243D;
 }
+
+
 
 
