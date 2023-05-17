@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header {
+    padding-top: 27px;
+}
+
+.container{
+    max-width: 1032px;
+    margin: auto;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+    justify-content:flex-end;
+}
+
+header nav ul li  {
+    margin-left: 33px;
+    transition: 0.5s;
+}
+
+header nav ul li :hover  {
+transform: rotate(360deg);
+    margin-left: 33px;
+}
+
+
+header nav ul li a {
+    font-family: 'Heebo';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.main_banner {
+    padding-top:140px;
+    padding-bottom:71px;
+}
+
+.main_banner p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 38px;
+    line-height: 24px;
+    color: #21243D
+}
+
+.main_banner container {
+    max-width: 1032px; margin: auto;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.main_banner article {
+max-width: 498px}
+
+h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 44px;
+}
+
+.button {
+    border-radius: 2px;
+    padding:13px 20px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #FF6464;
+    transition: 0.5s;
+}
+.button :hover{
+    background: green;}
+
+.main_image_container {
+    max-width: 243px; overflow: hidden; border-radius: 50%
+}
+
+.main_image_container img {
+    display: block; width:100%;
+}
+
+.form_section {
+    padding-top: 69px;
+    padding-bottom: 194px;
+    background-color: #000000;
+}
+
+.section_form_container{
+    max-width: 564px; margin:auto;
+}
+
+.input_name {
+    padding-left: 31px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(105, 105, 105);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    border:none;
+}
+.input_email {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    padding-left:31px;
+    border:none;
+}
+
+.input_budjet {
+    padding-left:31px;
+    padding-top:18px;
+    padding-bottom:17px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(105, 105, 105);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    border:none;
+}
+
+section form textarea {
+    padding-left: 31px;
+    padding-top:17px;
+    resize:none;
+    box-sizing: border-box;
+    height: 127px; width:100%;
+    background-color: rgba(128, 128, 128);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    color:#FFFFFF;
+    border:none;
+}
+
+.button_container{
+    display:flex;justify-content: center; margin:23px;
+}
+
+.button_container button {
+    border:solid 2px;
+    color:#7ec4bd;
+    background-color: transparent;
+    padding-top:15px;
+    padding-bottom:16px;
+    padding-left:60px;
+    padding-right: 60px;
+    border-radius: 0px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #8BCAC3;
+}
+
+footer {
+    padding-top: 51px; padding-bottom: 54px;
+}
+
+.footer_container{
+    max-width: 1032px; margin: auto;
+}
+.footer_container ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer_container ul li {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+footer .footer_container p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
+
+
